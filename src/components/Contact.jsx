@@ -11,6 +11,7 @@ export default function Contact() {
   const [status, setStatus] = useState("");
 
   const handleChange = (e) => {
+    setStatus("")
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 

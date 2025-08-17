@@ -24,8 +24,9 @@ export default function Home() {
         <div className="w-full md:w-1/2 flex justify-center items-center">
           <div className="w-90 h-60 md:w-full md:h-80">
             <img
-              src="/images/Ziaur_Rahman_Profile.jpeg"
+              src="/images/Ziaur_Rahman_Profile.webp"
               alt="Ziaur Rahman"
+              loading='lazy'
               className="w-full h-full object-cover object-top rounded-lg shadow-lg"
             />
           </div>

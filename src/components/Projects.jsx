@@ -7,7 +7,7 @@ const projectData = [
     description:
       "Responsive web app that enables users to build and export professional resumes using customizable templates and live preview.",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Vercel", "Context API", "Tailwind CSS", "Shadcn UI"],
-    image: "/images/resume-builder-project.png",
+    image: "/images/resume-builder-project.webp",
     github: "https://github.com/zrwin/resumeMaker",
     live: "https://resume-builderzr.netlify.app/",
   },
@@ -16,7 +16,7 @@ const projectData = [
     description:
       "A full-stack web application to manage student results efficiently. Includes admin controls for adding, updating, and viewing student performance with secure authentication.",
     techStack: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
-    image: "/images/student-management.jpg", // Update image if it's incorrect
+    image: "/images/student-management.webp", // Update image if it's incorrect
     github: "https://github.com/zrwin/student_res_mang",
     live: "null",
   },
