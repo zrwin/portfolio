@@ -39,9 +39,9 @@ export default function Projects() {
       <div className="grid md:grid-cols-2 gap-10">
 
         {projects.map((proj, index) => (
-          <a href={proj.github} target="_blank" rel="noopener noreferrer">
           <div
             key={index}
+            onClick={()=> window.open(proj.github, "_blank")}
             className="  shadow-md shadow-cyan-800 rounded-lg overflow-hidden  hover:shadow-orange-600 transition"
           >
             <img
@@ -80,7 +80,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-      </a>
+  
         ))}
       </div>
     </section>
